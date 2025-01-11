@@ -31,10 +31,10 @@ const AboutSectionOne = () => {
               />
 
               <div
-                className="mb-12 max-w-full lg:mb-0" // 修改 max-w-full
+                className="mb-12 max-w-full lg:mb-0" 
                 data-wow-delay=".15s"
               >
-                <div className="max-w-full"> // 修改 max-w-full
+                <div className="max-w-full"> 
                   <div className="mb-9">
                     <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                       政企解决方案
