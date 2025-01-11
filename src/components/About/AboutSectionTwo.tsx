@@ -28,29 +28,10 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                云计算，我们是专业的
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                我们是一家由来自互联网大厂的精英团队创立的高科技企业。我们凭借15年的深厚从业经验，专注于为客户提供高效、可靠的CDN、安全、云计算服务。至今，我们已成功服务超过一百家客户，涵盖政企、游戏、泛娱乐、金融、教育等多个领域。以技术创新为驱动，不断优化产品与服务，致力于帮助客户实现数字化及国际化转型，提升业务效率与竞争力。我们期待与更多合作伙伴携手共进，共创美好未来。
                 </p>
               </div>
             </div>

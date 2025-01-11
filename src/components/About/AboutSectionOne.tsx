@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                paragraph=""
                 mb="44px"
               />
 
@@ -33,19 +33,34 @@ const AboutSectionOne = () => {
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
+              <div className="w-full px-4 lg:w-1/2">
+            <div className="max-w-[470px]">
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                政企解决方案
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                依托行业15年+服务经验，为政企客户提供整套的信息基础设施、网络、安全等一站式的解决方案。
+                </p>
+              </div>
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                安全解决方案
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                包括基础的DDoS、WAF、Bot等安全，API接口安全及防护，用户零信任解决方案等。
+                </p>
+              </div>
+              <div className="mb-1">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                SD-WAN产品
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                帮客户轻松实现国内不同分支机构、国内到海外的互联互通，也提供不同云服务商间的相互打通。
+                </p>
+              </div>
+            </div>
+          </div>
               </div>
             </div>
 
