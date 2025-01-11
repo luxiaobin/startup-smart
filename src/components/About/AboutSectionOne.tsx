@@ -24,43 +24,41 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
+                title="综合解决方案"
                 paragraph=""
                 mb="44px"
               />
 
               <div
-                className="mb-12 max-w-[570px] lg:mb-0"
+                className="mb-12 max-w-full lg:mb-0" // 修改 max-w-full
                 data-wow-delay=".15s"
               >
-              <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                政企解决方案
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                依托行业15年+服务经验，为政企客户提供整套的信息基础设施、网络、安全等一站式的解决方案。
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                安全解决方案
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                包括基础的DDoS、WAF、Bot等安全，API接口安全及防护，用户零信任解决方案等。
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                SD-WAN产品
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                帮客户轻松实现国内不同分支机构、国内到海外的互联互通，也提供不同云服务商间的相互打通。
-                </p>
-              </div>
-            </div>
-          </div>
+                <div className="max-w-full"> // 修改 max-w-full
+                  <div className="mb-9">
+                    <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                      政企解决方案
+                    </h3>
+                    <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      依托行业15年+服务经验，为政企客户提供整套的信息基础设施、网络、安全等一站式的解决方案。
+                    </p>
+                  </div>
+                  <div className="mb-9">
+                    <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                      安全解决方案
+                    </h3>
+                    <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      包括基础的DDoS、WAF、Bot等安全，API接口安全及防护，用户零信任解决方案等。
+                    </p>
+                  </div>
+                  <div className="mb-1">
+                    <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                      SD-WAN产品
+                    </h3>
+                    <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      帮客户轻松实现国内不同分支机构、国内到海外的互联互通，也提供不同云服务商间的相互打通。
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
