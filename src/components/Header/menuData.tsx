@@ -15,6 +15,12 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
+    title: "产品服务",
+    path: "/product",
+    newTab: false,
+  },
+  {
+    id: 4,
     title: "联系我们",
     path: "/contact",
     newTab: false,
